@@ -29,7 +29,7 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   elsif katz_deli.length != 0 
     puts "Currently serving #{katz_deli[0]}." 
-    katz_deli.shift
+    katz_deli.shifthttps://learn.co/tracks/full-stack-web-development-v8/module-5-procedural-ruby/section-6-arrays/arrays-and-methods
   end
 end
 
